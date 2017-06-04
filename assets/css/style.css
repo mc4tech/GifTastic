@@ -1,0 +1,72 @@
+body {
+	/*background-image: url(assets/images/footer_lodyas.png);*/
+	/*background: blue;*/
+	/*color: red;*/
+}
+
+.jumbotron {
+	background: blue;
+}
+
+#title {
+	text-align: center;
+	font-family: 'Crete Round', serif;
+}
+
+.caption img {
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.caption h3{
+	font-family: 'Courgette', cursive;
+}
+
+.caption {
+	margin-bottom: 2%;
+}
+
+.caption:last-child {
+	margin-bottom: 7%;
+}
+
+#gif-input, #textInput {
+	margin-top: 1%;
+}
+
+#newGif {
+	margin-top: 3%;
+}
+
+.gifCat{
+	margin: 1%;
+}
+
+#gifsHere img {
+	margin: 1%;
+}
+
+#gifsHere h1{
+	color: gold;
+}
+
+.caption {
+	color: gold;
+}
+
+#textInput {
+	width: 100%;
+	border-radius: 7px;
+}
+
+#footer {
+        padding: 30px 0;
+        clear: both;
+        font-size: 12px;
+        color: #fff;
+        color: #ccc;
+        text-align: center;
+        /*Cowboys footer*/
+        background: rgb(12,42,86);       
+        border-top: 8px solid rgb(99,129,135);
+}
