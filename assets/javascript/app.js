@@ -48,7 +48,7 @@ $(document).ready(function(){
 		//assigns var category to the button clicked
 		var category = $(this).attr("data-name");
 		//sets var queryURL to url + category + key 
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + category + "&api_key=dc6zaTOxFJmzC&limit=10";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + category + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 		//ajax call to get data to generate gifs
 		$.ajax({
