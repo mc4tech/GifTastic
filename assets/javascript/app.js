@@ -57,7 +57,7 @@ $(document).ready(function(){
 		})
 		.done(function(response) {
           var results = response.data;
-          // console.log(response);
+          console.log(response);
           $("#gifsHere").empty();
          
           //loops through the data to creating div and img elements to append gifs to html
@@ -76,7 +76,7 @@ $(document).ready(function(){
             gifImage.attr("data-still", results[i].images.fixed_height_still.url); // sets data-still attribute to the still url
             gifImage.attr("data-animate", results[i].images.fixed_height.url)//sets the attribute data-animate to the url
             gifImage.attr("data-state", "still"); //sets image state
-            gifImage.attr("alt", topics[i] + " Gif")
+            gifImage.attr("alt", topics[i] + " Gif")	
             gifImage.addClass("image");
             //appends rating info to caption div
             caption.append(p);
