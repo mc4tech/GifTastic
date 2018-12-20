@@ -6,12 +6,13 @@ body {
 }
 
 .jumbotron {
-	background: blue;
+	background: red;
 }
 
 h1 {
 	text-align: center;
 	font-family: 'Crete Round', serif;
+	color: aqua;
 }
 
 .caption img {
@@ -41,7 +42,7 @@ h1 {
 
 .gifCat{
 	margin: 1%;
-	background: rgb(12,42,86);
+	background:rgb(86, 12, 22);
 	color: #ccc; 
 }
 
