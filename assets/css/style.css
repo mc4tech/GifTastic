@@ -42,8 +42,13 @@ h1 {
 
 .gifCat{
 	margin: 1%;
-	background:rgb(86, 12, 22);
+	background:rgb(12,42,86);
+	border-top: 4px solid rgb(99,129,135);
 	color: #ccc; 
+}
+
+.gifCat:hover {
+	box-shadow: 5px 5px rgb(12,42,86);
 }
 
 #gifsHere img {
